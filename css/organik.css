@@ -1,0 +1,701 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    font-family: sans-serif !important;
+}
+
+ol,
+li {
+    list-style: none;
+    font-size: 17px;
+}
+
+ol,
+li:hover {
+    color: #68A47F;
+}
+
+
+
+
+.home__href::before {
+    color: #68A47F;
+}
+
+
+.container {
+    max-width: 1340px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    margin-top: 1.2rem;
+}
+
+.nav__list {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav__list li {
+    font-weight: 500;
+
+}
+
+
+.search-cart-container {
+    display: flex;
+    align-items: center;
+}
+
+
+.search-bar {
+    width: 300px;
+    height: 44px;
+    padding: 0 0 0 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #FAFAFA;
+    border: none;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.search-bar .search-icon {
+    width: 48px;
+    height: 40px;
+    background-color: #8FC4A9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.cart-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    height: 44px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #E0E0E0;
+    color: #2E465C;
+    font-size: 16px;
+    padding: 0 4px 1px 1px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.cart-button .cart-icon {
+    width: 41px;
+    height: 40px;
+    background-color: #2E465C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+.cart-button .cart-icon svg {
+    fill: white;
+    width: 14px;
+    height: 14px;
+}
+
+.search__img {
+    width: 20px;
+    height: 20px;
+}
+
+.savatcha__img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.hero__section{
+    width: 1535px;
+    height: 670px;
+    background-image: url(../image/Image.png);
+    background-size: cover;
+    margin-left: -107px;
+    margin-top: -20px;
+    background-color: #F1EFF0;
+
+}
+
+.hero__section--img__img {
+    width: 200px;
+    background-color: #2E465C;
+}
+
+.section__background {
+    width: 1535px;
+    height: 668px;
+    background-image: url(../image/Background.png);
+    background-size: cover;
+    margin-left: -107px;
+    margin-top: -41.8rem;
+}
+
+.hero__section-bacground {
+    font-family: sans-serif;
+    padding: 10rem 8rem;
+}
+
+.natural__food{
+    font-family: 'Pacifico', cursive;
+    color: #68A47F;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.choose__the {
+    font-size: 65px;
+    color: #274C5B;
+}
+
+.Explore__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #EFD372;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.Explore__button-span {
+    margin-top: 6.5px;
+}
+
+.Explore__button-span img {
+    height: 25px;
+    width: 25px;
+}
+
+.Explore__button:hover {
+    background-color: #d0aa03;
+    color: white;
+}
+
+.section__three-image{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 10px;
+}
+
+.background__three-section {
+    width: 630px;
+    height: 360px;
+    background-image: url(../background-image/banana.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.three__section-background {
+    width: 630px;
+    height: 360px;
+    background-image: url(../background-image/shaftoli.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.natural__text{
+    font-weight: 500;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 28px;
+}
+.offer__text{
+    font-weight: 500;
+    color: #68A47F;
+    font-family: 'Pacifico', cursive;
+    font-size: 28px;
+}
+
+.garden__text{
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.get__text {
+    font-family: sans-serif;
+    font-size: 40px;
+    color: #274C5B;
+}
+
+
+.background__three-section div {
+    margin-left: 3rem;
+    margin-top: 7rem;
+}
+
+.three__section-background div {
+    margin-left: 3rem;
+    margin-top: 7rem;
+}
+
+.section__four-background{
+    height: 750px;
+    width: 1515px;
+    background-image: url(../background-image/Background.png);
+    margin-left: -95px;
+}
+
+.section__four-img {
+    height: 700px;
+    width: 700px;
+    margin-left: -1rem;
+}
+
+.section__four-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: rem;
+    font-family: sans-serif;
+}
+
+.section__four-about{
+    font-family: 'Dancing Script', cursive; 
+    color: #68A47F;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.section__four-we {
+    font-family: sans-serif;
+    font-size: 50px;
+    color: #2E465C;
+}
+
+.section__four-paragraf {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    opacity: 70%;
+}
+
+.section__organick-food {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.section__organick-food div {
+    line-height: 1.8rem;
+}
+
+.section__organick-food div h6 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #2E465C;
+}
+
+.section__organick-food div p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+.flex__display{
+    display: flex;
+    flex-direction: column;
+    row-gap: -3rem;
+}
+
+.pppppppppp {
+
+    opacity: 70%;
+}
+
+.section__organick-good {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.section__organick-good {
+    line-height: 1.8rem;
+}
+
+.section__organick-good div h6 {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #2E465C;
+}
+
+.section__organick-good div p {
+    opacity: 70%;
+    font-size: 17px;
+}
+
+.section__four-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+    font-size: 18px;
+    width: 220px;
+    height: 60px;
+    border: none;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-color: #2E465C;
+    color: white;
+}
+
+
+.section__four-span {
+    margin-top: 5px;
+}
+
+.section__four-btn:hover {
+    background-color: #809fbd;
+    color: #2E465C;
+}
+
+.section__fine-products h4{
+    font-family: 'Dancing Script', cursive;
+    color: #68A47F;
+    font-size: 30px;
+    text-align: center;
+}
+
+.section__fine-products h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #2E465C;
+    font-family: sans-serif;
+}
+
+.section__fine-products {
+    margin-top: 8rem;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: #2a3e52;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.dropdown-menu {
+    font-size: 18px;
+}
+
+
+.section__fine-card {
+    width: 335px;
+    height: 483px;
+    background-color: #F9F8F8;
+    border-radius: 30px;
+}
+
+.section__fine-card a button {
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 100px;
+    height: 35px;
+    border: none;
+    background: #2E465C;
+    color: white;
+    border-radius: 10px;
+}
+
+.section__fine-card a button:hover {
+    background-color: white;
+    color: #2E465C;
+}
+
+.section__fine-card {
+    background-image: url(../svg/vere.svg);
+    background-repeat: no-repeat;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+    border: none;
+}
+
+.card h2 {
+    font-size: 20px;
+    text-align: start;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.s_f-button {
+    background-color:#2a3e52;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 12px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    border: none;
+    left: 15px;
+}
+
+.s_f-button:hover {
+    background-color: white;
+    color: #274C5B;
+}
+.price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 5px;
+}
+.discounted-price {
+    color: #2E465C;
+    font-weight: bold;
+}
+.stars {
+    color: #ffa500;
+    margin-top: 10px;
+}
+.stars span {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.section__fine-hr {
+    margin-top: -.1px;
+    opacity: 40%;
+}
+
+.section__fine-start{
+    display: flex;
+    align-items: center;
+}
+
+.stars {
+    margin-top: -1.1rem;
+}
+
+.card__flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.card__fine-img {
+    height: 260px;
+}
+
+
+.card {
+    display: inline-block;
+}
+.stars span {
+    cursor: pointer;
+    font-size: 20px;
+    color: #ccc;
+}
+.stars span.rated {
+    color: gold;
+}
+
+.section__fine-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.section__fine-btn {
+    width: 220px;
+    height: 60px;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #2E465C;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.section__fine-btn:hover {
+    background-color: white;
+    color: #2E465C;
+}
+
+.section__sex-flex {
+    height: 100vh;
+    width: 1521px;
+    margin-left: -112px;
+    background-image: url(../background-image/lemon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+}
+
+.section__sex-testimonial {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.section__sex-testimonial h4 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    font-weight: 600;
+    color: #68A47F;
+}
+
+.section__sex-testimonial h2 {
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    color: #2E465C;
+}
+
+/* .testimoni */
+.testimonial-carousel img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.testimonial-carousel .stars {
+    color: #ffa500;
+    margin-bottom: 10px;
+}
+.testimonial-carousel p {
+    margin: 10px 0;
+    /* text-align: center; */
+}
+.testimonial-carousel h4 {
+    margin: 10px 0 5px;
+}
+.testimonial-carousel .carousel-indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.testimonial-carousel .carousel-indicators span {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.testimonial-carousel .carousel-indicators .active {
+    background-color: #333;
+}
+.stats-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+}
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border: 2px solid #a1c7b3;
+    border-radius: 50%;
+    text-align: center;
+}
+.stat-item h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #2c3e50;
+}
+.stat-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+.carousel-item img {
+    margin-top: -10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stats-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.section__sex-carousel{
+    display: flex;
+    justify-content: center;
+    
+}
